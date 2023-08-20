@@ -15,7 +15,7 @@ const Hero = () => {
             <img
               src={mobileLogo}
               alt="hero image"
-              className="md:hidden block h-full"
+              className="md:hidden block h-full w-full object-contain"
             />
             <img
               src={desktopLogo}
